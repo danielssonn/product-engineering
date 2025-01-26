@@ -13,13 +13,15 @@ const EngineerignPractice = () => {
 
 
             <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-4">Current State</h2>
+                <h2 className="text-3xl font-bold mb-4">Background</h2>
                 <ul className="list-disc pl-6 space-y-2">
-                    <li>Product teams are organized to discrete value streams, such as Liquidity, Payments or Digital Experience</li>
-                    <li>Deep and specialized subject matter expertise and experience exists in respective product organizations</li>
-                    <li>Vendor solutions can provide additional product bias</li>
-                    <li>Focus on simple engineering fundamentals comes too late/not at all, as part of software delivery cycle</li>
-                    <li>Launching products that cross cuts multiple value streams is complex, slow and repetitive</li>
+                    <li>Product teams are organized in discrete value streams, such as Liquidity, Payments or Digital Experience</li>
+                    <li>Specialized subject matter expertise and market operational experience exists in respective product organizations</li>
+                    <li>Cross product coordination challenge is excarbated by divergent technology footprints in respective domains</li>
+                    <li>Business agility requirements dictate the need for fast, coordinated delivery of cross product initiaves</li>
+                    <li>We need a systemic approach to deal with the agility challenge, while maintaining the current strenghts</li>
+
+
                 </ul>
             </div>
 
@@ -44,9 +46,36 @@ const EngineerignPractice = () => {
                     </div>
                 </div>
             </div>
+            <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-4">What's really going on?</h2>
 
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="p-4 border rounded">
+                        <h3 className="text-xl font-bold mb-2">Product</h3>
+                        <ul className="list-disc pl-4">
+                            <li>Lacks visibility into solution delivery</li>
+                            <li>Struggles describing requirments in consistent and pragmatic fashion</li>
+                            <li>Observe the churn in Jira artifacts almost till solution deployment</li>
+
+                        </ul>
+                    </div>
+                    <div className="p-4 border rounded">
+                        <h3 className="text-xl font-bold mb-2">Technology</h3>
+                        <ul className="list-disc pl-4">
+                            <li>Aids requirement discovery deep into delivery/test cycles</li>
+                            <li>Struggles building reusable assets</li>
+                            <li>Struggles in efficiency and quality</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineering Vision</h2>
+                <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
+                    <p>Unify product knowledge and engineering excellence in a scalable framework, to accelerate business agility and innovation</p></blockquote>
+                <br></br>
 
                 <div className="grid grid-cols-2 gap-6">
                     <div className="p-4 border rounded">
