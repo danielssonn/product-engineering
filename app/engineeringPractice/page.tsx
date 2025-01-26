@@ -17,8 +17,8 @@ const EngineerignPractice = () => {
                 <ul className="list-disc pl-6 space-y-2">
                     <li>Product teams are organized in discrete value streams, such as Liquidity, Payments or Digital Experience</li>
                     <li>Specialized subject matter expertise and market operational experience exists in respective product organizations</li>
+                    <li>Business agility requirements dictate the need for faster, coordinated delivery of cross product initiaves</li>
                     <li>Cross product coordination challenge is excarbated by divergent technology footprints in respective domains</li>
-                    <li>Business agility requirements dictate the need for fast, coordinated delivery of cross product initiaves</li>
                     <li>We need a systemic approach to deal with the agility challenge, while maintaining the current strenghts</li>
 
 
