@@ -17,7 +17,7 @@ const EngineerignPractice = () => {
                 <ul className="list-disc pl-6 space-y-2">
                     <li>Product teams are organized to discrete value streams, such as Liquidity, Payments or Digital Experience.</li>
                     <li>Deep and specialized subject matter expertise and experience exists in respective product organizations.</li>
-                    <li>Vendor solutions often provide its own product view bias.</li>
+                    <li>Vendor solutions provide additional product bias.</li>
                     <li>Launching a product that cross cuts multiple value streams is complex and slow.</li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@ const EngineerignPractice = () => {
                     </div>
                 </div>
             </div>
-            <Image alt="Product Engineering" src='/product-eng.png'></Image>
+            <Image width="800" height="800" alt="Product Engineering" src='/product-eng.png'></Image>
 
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineer</h2>
@@ -159,7 +159,7 @@ const EngineerignPractice = () => {
                 </Link>
             </section>
 
-        </div>
+        </div >
 
 
 
