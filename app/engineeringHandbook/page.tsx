@@ -42,7 +42,7 @@ const EngineeringHandbook = async () => {
                         <div>
                             <h4 className="font-bold mb-2">Feature Rules</h4>
                             <ul className="list-disc pl-4">
-                                <li>Product Specific Rules</li>
+                                <li>Product Feature Rules</li>
                                 <li>Credit Limit Rules</li>
                                 <li>Entity Rules</li>
                             </ul>
