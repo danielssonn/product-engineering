@@ -81,18 +81,18 @@ const EngineerignPractice = () => {
                     <div className="p-4 border rounded">
                         <h3 className="text-xl font-bold mb-2">Product Engineering</h3>
                         <ul className="list-disc pl-4">
-                            <li>Unified Product Model - enable model driven product delivery x products</li>
+                            <li>Unified Product Model - enable reusable, model driven delivery x products</li>
                             <li>Standardized Product Rules - improve transparency, simplify compliance</li>
-                            <li>Multi-modal experiences (Web, H2H, Agentic) - sticky experiences x products</li>
+                            <li>Multi-modal experiences (Web, H2H, Agentic) - create sticky experiences x products</li>
                             <li>Automated Product Delivery Pipeline - accelerate via low code deployments</li>
                         </ul>
                     </div>
                     <div className="p-4 border rounded">
                         <h3 className="text-xl font-bold mb-2">Product Operations</h3>
                         <ul className="list-disc pl-4">
-                            <li>Product Lifecycle Management - what/when/where</li>
-                            <li>Opportunity Management enablement - enhanced sales pipeline</li>
-                            <li>Offer Curation - curate bespoke offers</li>
+                            <li>Product Lifecycle Management - what/when/where of all products</li>
+                            <li>Opportunity Management enablement - enhanced sales pipeline with integrated visibility</li>
+                            <li>Offer Curation - create and extend bespoke offers and bundles</li>
                             <li>Adoption Monitoring - connected feedback loop</li>
                         </ul>
                     </div>
