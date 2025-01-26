@@ -74,7 +74,7 @@ const EngineerignPractice = () => {
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineering Vision</h2>
                 <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
-                    <p>Unify product knowledge and engineering excellence in a scalable framework, to accelerate business agility and innovation</p></blockquote>
+                    <p>Unify product knowledge with engineering best practice in a scalable framework, to accelerate business agility and innovation</p></blockquote>
                 <br></br>
 
                 <div className="grid grid-cols-2 gap-6">
