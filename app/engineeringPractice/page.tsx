@@ -15,10 +15,11 @@ const EngineerignPractice = () => {
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Current State</h2>
                 <ul className="list-disc pl-6 space-y-2">
-                    <li>Product teams are organized to discrete value streams, such as Liquidity, Payments or Digital Experience.</li>
-                    <li>Deep and specialized subject matter expertise and experience exists in respective product organizations.</li>
-                    <li>Vendor solutions provide additional product bias.</li>
-                    <li>Launching a product that cross cuts multiple value streams is complex and slow.</li>
+                    <li>Product teams are organized to discrete value streams, such as Liquidity, Payments or Digital Experience</li>
+                    <li>Deep and specialized subject matter expertise and experience exists in respective product organizations</li>
+                    <li>Vendor solutions can provide additional product bias</li>
+                    <li>Focus on simple engineering fundamentals comes too late/not at all, as part of software delivery cycle</li>
+                    <li>Launching products that cross cuts multiple value streams is complex, slow and repetitive</li>
                 </ul>
             </div>
 
@@ -51,10 +52,10 @@ const EngineerignPractice = () => {
                     <div className="p-4 border rounded">
                         <h3 className="text-xl font-bold mb-2">Product Engineering</h3>
                         <ul className="list-disc pl-4">
-                            <li>Unified Product Model - enable model driven product delivery x verticals</li>
-                            <li>Standardized Product Rule Engine - improve transparency, simplify compliance</li>
-                            <li>Multi-modal, sticky experiences (Web, Headless, Agentic) - create novel experinces</li>
-                            <li>Automated Product Delivery Pipeline - accelerate low code deployments</li>
+                            <li>Unified Product Model - enable model driven product delivery x products</li>
+                            <li>Standardized Product Rules - improve transparency, simplify compliance</li>
+                            <li>Multi-modal experiences (Web, H2H, Agentic) - sticky experiences x products</li>
+                            <li>Automated Product Delivery Pipeline - accelerate via low code deployments</li>
                         </ul>
                     </div>
                     <div className="p-4 border rounded">
@@ -69,7 +70,7 @@ const EngineerignPractice = () => {
                 </div>
             </div>
             <Image width="800" height="800" alt="Product Engineering" src='/product-eng.png'></Image>
-
+            <br></br>
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineer</h2>
                 Who is a Product Engineer? Product + Engineer. They operate at the intersection of business and technology. They are as passionate about the product features and client experience as they are rooted in the scientific method and driven by data. They are experienced and comfortable with the unknown. They apply the same rigour and discipline to everything they do. They always learn, explore and seek new insights. They are comfortable with technology and understand its full impact on the business and on the client experience. They think in systems, frameworks and first principles.
@@ -99,9 +100,10 @@ const EngineerignPractice = () => {
                 <h2 className="text-3xl font-bold mb-4">Requirements</h2>
                 <div className="p-4 border rounded">
                     <ul className="list-disc pl-4">
-                        <li>Product Engineering Team (dedicated team of Product Engineers)</li>
+                        <li>Product Engineering Platform</li>
+                        <li>Product Engineering Team </li>
                         <li>Product Enfineering CoE integrated with all value streams</li>
-                        <li>Prototyping practice (skunkworks) working ahead of the product roadmap with focus on innovation</li>
+                        <li>Prototyping practice (skunkworks) working ahead of the product roadmap, with focus on innovation</li>
                         <li>Executive sponsorship</li>
 
 

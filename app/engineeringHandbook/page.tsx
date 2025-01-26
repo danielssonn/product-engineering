@@ -55,7 +55,7 @@ const EngineeringHandbook = async () => {
                     <h3 className="text-xl font-bold mb-2">Experience Layer</h3>
                     <div className="grid grid-cols-3 gap-4">
                         <div>
-                            <h4 className="font-bold">Web - auto genenrated</h4>
+                            <h4 className="font-bold">Web - Low Code</h4>
                             <ul className="list-disc pl-4 text-sm">
                                 <li>Components</li>
                                 <li>Forms</li>
@@ -63,7 +63,7 @@ const EngineeringHandbook = async () => {
                             </ul>
                         </div>
                         <div>
-                            <h4 className="font-bold">API</h4>
+                            <h4 className="font-bold">API - Low Code</h4>
                             <ul className="list-disc pl-4 text-sm">
                                 <li>REST</li>
                                 <li>GraphQL</li>
@@ -74,8 +74,8 @@ const EngineeringHandbook = async () => {
                             <h4 className="font-bold">Agentic</h4>
                             <ul className="list-disc pl-4 text-sm">
                                 <li>Intents</li>
-                                <li>Flows</li>
                                 <li>AI Agents</li>
+                                <li>Flows</li>
                             </ul>
                         </div>
                         <div>
