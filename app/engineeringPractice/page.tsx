@@ -47,7 +47,7 @@ const EngineerignPractice = () => {
                 </div>
             </div>
             <div className="mb-12">
-                <h2 className="text-3xl font-bold mb-4">What's really going on?</h2>
+                <h2 className="text-3xl font-bold mb-4">What is really going on?</h2>
 
                 <div className="grid grid-cols-2 gap-6">
                     <div className="p-4 border rounded">
@@ -73,7 +73,7 @@ const EngineerignPractice = () => {
             </div>
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineering Vision</h2>
-                <blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
+                <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
                     <p>Unify product knowledge and engineering excellence in a scalable framework, to accelerate business agility and innovation</p></blockquote>
                 <br></br>
 
