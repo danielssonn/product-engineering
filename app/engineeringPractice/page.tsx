@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 const EngineerignPractice = () => {
 
 
@@ -67,7 +68,7 @@ const EngineerignPractice = () => {
                     </div>
                 </div>
             </div>
-            <img src='/product-eng.png'></img>
+            <Image alt="Product Engineering" src='/product-eng.png'></Image>
 
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineer</h2>

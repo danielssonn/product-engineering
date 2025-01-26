@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { ChevronRight, ChevronDown } from 'lucide-react'
 
-const JsonAccordion = ({ data }: { data: any }) => {
+const JsonAccordion = ({ data }: { data: string }) => {
     const [isExpanded, setIsExpanded] = useState(false)
 
     return (

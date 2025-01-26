@@ -2,6 +2,7 @@ import Link from "next/link";
 import { promises as fs } from 'fs';
 import path from 'path';
 import JsonViewer from '../components/JSONAccordion';
+import Image from "next/image";
 
 const EngineeringHandbook = async () => {
 
@@ -18,7 +19,7 @@ const EngineeringHandbook = async () => {
 
 
             <h3 className="text-3xl font-bold mb-8">Product Catalog</h3>
-            <img src='/catalog.png'></img>
+            <Image alt="catalog" src='/catalog.png'></Image>
             <br></br>
             <div className="space-y-6">
                 <h3 className="text-3xl font-bold mb-8">Product Model</h3>
