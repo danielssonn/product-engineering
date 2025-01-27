@@ -27,5 +27,4 @@ const JsonAccordion = ({ data }: { data: string }) => {
         </div>
     )
 }
-
 export default JsonAccordion
