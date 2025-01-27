@@ -8,12 +8,13 @@ export default function Home() {
 
       {/* <Image alt="Engineer" width="400" height="400" src="/PEng1.webp"></Image> */}
 
-      <nav className="space-x-6">
+      <nav className="space-x-8">
         <Link href="/engineeringPractice" className="text-blue-500 hover:text-blue-700">
           Engineering Practice
         </Link>
+
         <Link href="/engineeringHandbook" className="text-blue-500 hover:text-blue-700">
-          Engineering Handbook
+          Handbook
         </Link>
       </nav>
     </main>

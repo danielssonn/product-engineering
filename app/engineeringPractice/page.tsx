@@ -80,50 +80,50 @@ const EngineerignPractice = () => {
 
                     <rect x="50" y="50" width="200" height="200"
                         fill="royalblue" stroke="royalblue" strokeWidth="2" />
-                    <text fill="white" x="150" y="150" textAnchor="middle" dominant-baseline="middle">
+                    <text fill="white" x="150" y="150" textAnchor="middle" dominantBaseline="middle">
                         Product
                     </text>
 
 
                     <rect x="350" y="50" width="200" height="200"
                         fill="royalblue" stroke="royalblue" strokeWidth="2" />
-                    <text fill="white" x="450" y="150" textAnchor="middle" dominant-baseline="middle">
+                    <text fill="white" x="450" y="150" textAnchor="middle" dominantBaseline="middle">
                         Technology
                     </text>
 
 
                     <rect x="200" y="150" width="200" height="200"
                         fill="white" stroke="deepskyblue" strokeWidth="10" />
-                    <text x="300" y="250" textAnchor="middle" dominant-baseline="middle">
+                    <text x="300" y="250" textAnchor="middle" dominantBaseline="middle">
                         Product Engineering
                     </text>
                     <line x1="250" y1="150" x2="350" y2="150"
-                        stroke="red" stroke-width="2" strokeDasharray="15" />
+                        stroke="red" strokeWidth="2" strokeDasharray="15" />
                     <text fill="red" x="300" y="140" textAnchor="middle" dominantBaseline="auto">
                         Chasm
                     </text>
 
                     <rect x="220" y="190" width="70" height="30"
-                        fill="deepskyblue" stroke="deepskyblue" stroke-width="1" />
+                        fill="deepskyblue" stroke="deepskyblue" strokeWidth="1" />
                     <text fill="white" x="255" y="205" textAnchor="middle" dominantBaseline="middle" fontSize="8">
                         Product Catalog
                     </text>
 
                     <rect x="310" y="190" width="70" height="30"
-                        fill="deepskyblue" stroke="deepskyblue" stroke-width="1" />
+                        fill="deepskyblue" stroke="deepskyblue" strokeWidth="1" />
                     <text fill="white" x="345" y="205" textAnchor="middle" dominantBaseline="middle" fontSize="8">
                         Product Rules
                     </text>
 
                     <rect x="220" y="290" width="70" height="30"
-                        fill="deepskyblue" stroke="deepskyblue" stroke-width="1" />
-                    <text fill="white" x="255" y="305" textAnchor="middle" dominant-baseline="middle" fontSize="8">
+                        fill="deepskyblue" stroke="deepskyblue" strokeWidth="1" />
+                    <text fill="white" x="255" y="305" textAnchor="middle" dominantBaseline="middle" fontSize="8">
                         Product Experience
                     </text>
 
                     <rect x="310" y="290" width="70" height="30"
-                        fill="deepskyblue" stroke="deepskyblue  " stroke-width="1" />
-                    <text fill="white" x="345" y="305" textAnchor="middle" dominant-baseline="middle" fontSize="8">
+                        fill="deepskyblue" stroke="deepskyblue  " strokeWidth="1" />
+                    <text fill="white" x="345" y="305" textAnchor="middle" dominantBaseline="middle" fontSize="8">
                         Product Events
                     </text>
 
@@ -151,7 +151,12 @@ const EngineerignPractice = () => {
                     </div>
                 </div>
             </div>
-            <Image width="800" height="800" alt="Product Engineering" src='/product-eng.png'></Image>
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+            }}>
+                <Image className="justify-center" width="900" height="900" alt="Product Engineering" src='/product-eng.png'></Image>
+            </div>
             <br></br>
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineer</h2>
@@ -189,6 +194,9 @@ const EngineerignPractice = () => {
                             <li>Each Payment type can be rendered via pre-defined UI snippet (check boxes, radio buttons, dropdowns), normalized in Product Catalog</li>
                             <li>Adding new Payment type will be done by augmenting the Product Model, UI will auto-generate</li>
                             <li>Default Payment rules, such as number of approavers will be automatically provisioned</li>
+                            <br></br>
+                            <li>Without the framework and discipline in place, we run a risk of multiple slow and disconnected product deliveries</li>
+
                         </ul>
                     </div>
 
@@ -200,19 +208,19 @@ const EngineerignPractice = () => {
                     <div className="border rounded p-4">
                         <h3 className="text-xl font-bold mb-2">Efficiency</h3>
                         <div className="space-y-2">
-                            <div className="p-2 rounded">Component reuse rate</div>
-                            <div className="p-2 rounded">Automated vs manual changes</div>
-                            <div className="p-2 rounded">Self-service adoption</div>
-                            <div className="p-2 rounded">Resource utilization</div>
+                            <li>Component reuse rate</li>
+                            <li>Automated vs manual changes</li>
+                            <li>Self-service adoption</li>
+                            <li>Resource utilization</li>
                         </div>
                     </div>
                     <div className="border rounded p-4">
                         <h3 className="text-xl font-bold mb-2">Business Impact</h3>
                         <ul className="list-disc pl-4">
-                            <div className="p-2 rounded">Product launch success rate</div>
-                            <div className="p-2 rounded">Feature adoption speed</div>
-                            <div className="p-2 rounded">Cost per product change</div>
-                            <div className="p-2 rounded">Customer satisfaction</div>
+                            <li>Product launch success rate</li>
+                            <li>Feature adoption speed</li>
+                            <li>Cost per product change</li>
+                            <li>Customer satisfaction</li>
 
 
 
@@ -221,10 +229,10 @@ const EngineerignPractice = () => {
                     <div className="border rounded p-4">
                         <h3 className="text-xl font-bold mb-2">Quality</h3>
                         <ul className="list-disc pl-4">
-                            <div className="p-2 rounded">Production incidents</div>
-                            <div className="p-2 rounded">Rule execution errors</div>
-                            <div className="p-2 rounded">Integration failures</div>
-                            <div className="p-2 rounded">System Usability Scale</div>
+                            <li>Production incidents</li>
+                            <li>Rule execution errors</li>
+                            <li>Integration failures</li>
+                            <li>System Usability Scale</li>
 
 
 
@@ -233,10 +241,10 @@ const EngineerignPractice = () => {
                     <div className="border rounded p-4">
                         <h3 className="text-xl font-bold mb-2">Team Performance</h3>
                         <ul className="list-disc pl-4">
-                            <div className="p-2 rounded">Knowledge sharing sessions</div>
-                            <div className="p-2 rounded">Cross-training coverage</div>
-                            <div className="p-2 rounded">Innovation initiatives</div>
-                            <div className="p-2 rounded">Certification completion</div>
+                            <li>Knowledge sharing sessions</li>
+                            <li>Cross-training coverage</li>
+                            <li>Innovation initiatives</li>
+                            <li>Certification completion</li>
 
 
 
@@ -248,8 +256,8 @@ const EngineerignPractice = () => {
                 <h2 className="text-3xl font-bold mb-4">Requirements</h2>
                 <div className="p-4 border rounded">
                     <ul className="list-disc pl-4">
-                        <li>Product Engineering Platform</li>
-                        <li>Product Engineering Team </li>
+                        <li>Product Engineering Framework Adoption</li>
+                        <li>Product Engineering Team responsible for the framework evolution</li>
                         <li>Product Enfineering CoE integrated with all value streams</li>
                         <li>Prototyping practice (skunkworks) working ahead of the product roadmap, with focus on innovation</li>
                         <li>Executive sponsorship</li>
