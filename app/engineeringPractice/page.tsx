@@ -195,7 +195,7 @@ const EngineerignPractice = () => {
                 </div>
             </div>
             <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">Metrics and Governance</h2>
+                <h2 className="text-2xl font-bold mb-4">Metrics</h2>
                 <div className="grid grid-cols-2 gap-6">
                     <div className="border rounded p-4">
                         <h3 className="text-xl font-bold mb-2">Efficiency</h3>
