@@ -80,50 +80,50 @@ const EngineerignPractice = () => {
 
                     <rect x="50" y="50" width="200" height="200"
                         fill="darkblue" stroke="darkblue" strokeWidth="2" />
-                    <text fill="white" x="150" y="150" text-anchor="middle" dominant-baseline="middle">
+                    <text fill="white" x="150" y="150" textAnchor="middle" dominant-baseline="middle">
                         Product
                     </text>
 
 
                     <rect x="350" y="50" width="200" height="200"
                         fill="darkblue" stroke="darkblue" strokeWidth="2" />
-                    <text fill="white" x="450" y="150" text-anchor="middle" dominant-baseline="middle">
+                    <text fill="white" x="450" y="150" textAnchor="middle" dominant-baseline="middle">
                         Technology
                     </text>
 
 
                     <rect x="200" y="150" width="200" height="200"
                         fill="white" stroke="green" strokeWidth="10" />
-                    <text x="300" y="250" text-anchor="middle" dominant-baseline="middle">
+                    <text x="300" y="250" textAnchor="middle" dominant-baseline="middle">
                         Product Engineering
                     </text>
                     <line x1="250" y1="150" x2="350" y2="150"
                         stroke="red" stroke-width="2" strokeDasharray="15" />
-                    <text fill="red" x="300" y="140" text-anchor="middle" dominant-baseline="auto">
+                    <text fill="red" x="300" y="140" textAnchor="middle" dominant-baseline="auto">
                         Chasm
                     </text>
 
                     <rect x="220" y="190" width="70" height="30"
                         fill="green" stroke="green" stroke-width="1" />
-                    <text fill="white" x="255" y="205" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                    <text fill="white" x="255" y="205" textAnchor="middle" dominant-baseline="middle" fontSize="8">
                         Product Catalog
                     </text>
 
                     <rect x="310" y="190" width="70" height="30"
                         fill="green" stroke="green" stroke-width="1" />
-                    <text fill="white" x="345" y="205" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                    <text fill="white" x="345" y="205" textAnchor="middle" dominant-baseline="middle" fontSize="8">
                         Product Rules
                     </text>
 
                     <rect x="220" y="290" width="70" height="30"
                         fill="green" stroke="green" stroke-width="1" />
-                    <text fill="white" x="255" y="305" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                    <text fill="white" x="255" y="305" textAnchor="middle" dominant-baseline="middle" fontSize="8">
                         Product Experience
                     </text>
 
                     <rect x="310" y="290" width="70" height="30"
                         fill="green" stroke="green" stroke-width="1" />
-                    <text fill="white" x="345" y="305" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                    <text fill="white" x="345" y="305" textAnchor="middle" dominant-baseline="middle" fontSize="8">
                         Product Events
                     </text>
 
@@ -194,6 +194,56 @@ const EngineerignPractice = () => {
 
                 </div>
             </div>
+            <section className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">Metrics and Governance</h2>
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="border rounded p-4">
+                        <h3 className="text-xl font-bold mb-2">Efficiency</h3>
+                        <div className="space-y-2">
+                            <div className="p-2 rounded">Component reuse rate</div>
+                            <div className="p-2 rounded">Automated vs manual changes</div>
+                            <div className="p-2 rounded">Self-service adoption</div>
+                            <div className="p-2 rounded">Resource utilization</div>
+                        </div>
+                    </div>
+                    <div className="border rounded p-4">
+                        <h3 className="text-xl font-bold mb-2">Business Impact</h3>
+                        <ul className="list-disc pl-4">
+                            <div className="p-2 rounded">Product launch success rate</div>
+                            <div className="p-2 rounded">Feature adoption speed</div>
+                            <div className="p-2 rounded">Cost per product change</div>
+                            <div className="p-2 rounded">Customer satisfaction</div>
+
+
+
+                        </ul>
+                    </div>
+                    <div className="border rounded p-4">
+                        <h3 className="text-xl font-bold mb-2">Quality</h3>
+                        <ul className="list-disc pl-4">
+                            <div className="p-2 rounded">Production incidents</div>
+                            <div className="p-2 rounded">Rule execution errors</div>
+                            <div className="p-2 rounded">Integration failures</div>
+                            <div className="p-2 rounded">System Usability Scale</div>
+
+
+
+                        </ul>
+                    </div>
+                    <div className="border rounded p-4">
+                        <h3 className="text-xl font-bold mb-2">Team Performance</h3>
+                        <ul className="list-disc pl-4">
+                            <div className="p-2 rounded">Knowledge sharing sessions</div>
+                            <div className="p-2 rounded">Cross-training coverage</div>
+                            <div className="p-2 rounded">Innovation initiatives</div>
+                            <div className="p-2 rounded">Certification completion</div>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
             <div>
                 <h2 className="text-3xl font-bold mb-4">Requirements</h2>
                 <div className="p-4 border rounded">
@@ -203,9 +253,6 @@ const EngineerignPractice = () => {
                         <li>Product Enfineering CoE integrated with all value streams</li>
                         <li>Prototyping practice (skunkworks) working ahead of the product roadmap, with focus on innovation</li>
                         <li>Executive sponsorship</li>
-
-
-
                     </ul>
                 </div>
             </div>

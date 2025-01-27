@@ -115,6 +115,56 @@ const EngineeringHandbook = async () => {
                 </div>
             </div>
         </section>
+        <section className="mb-8">
+            <h2 className="text-2xl font-bold mb-4">Metrics and Governance</h2>
+            <div className="grid grid-cols-2 gap-6">
+                <div className="border rounded p-4">
+                    <h3 className="text-xl font-bold mb-2">Efficiency</h3>
+                    <div className="space-y-2">
+                        <div className="p-2 rounded">Component reuse rate</div>
+                        <div className="p-2 rounded">Automated vs manual changes</div>
+                        <div className="p-2 rounded">Self-service adoption</div>
+                        <div className="p-2 rounded">Resource utilization</div>
+                    </div>
+                </div>
+                <div className="border rounded p-4">
+                    <h3 className="text-xl font-bold mb-2">Business Impact</h3>
+                    <ul className="list-disc pl-4">
+                        <div className="p-2 rounded">Product launch success rate</div>
+                        <div className="p-2 rounded">Feature adoption speed</div>
+                        <div className="p-2 rounded">Cost per product change</div>
+                        <div className="p-2 rounded">Customer satisfaction</div>
+
+
+
+                    </ul>
+                </div>
+                <div className="border rounded p-4">
+                    <h3 className="text-xl font-bold mb-2">Quality</h3>
+                    <ul className="list-disc pl-4">
+                        <div className="p-2 rounded">Production incidents</div>
+                        <div className="p-2 rounded">Rule execution errors</div>
+                        <div className="p-2 rounded">Integration failures</div>
+                        <div className="p-2 rounded">System Usability Scale</div>
+
+
+
+                    </ul>
+                </div>
+                <div className="border rounded p-4">
+                    <h3 className="text-xl font-bold mb-2">Team Performance</h3>
+                    <ul className="list-disc pl-4">
+                        <div className="p-2 rounded">Knowledge sharing sessions</div>
+                        <div className="p-2 rounded">Cross-training coverage</div>
+                        <div className="p-2 rounded">Innovation initiatives</div>
+                        <div className="p-2 rounded">Certification completion</div>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </section>
 
         <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Product Operations</h2>
