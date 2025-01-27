@@ -155,7 +155,7 @@ const EngineerignPractice = () => {
                 display: "flex",
                 justifyContent: "center",
             }}>
-                <Image className="justify-center" width="900" height="900" alt="Product Engineering" src='/product-eng.png'></Image>
+                <Image className="justify-center" width="900" height="900" alt="Product Engineering" src='./product-eng.png' unoptimized></Image>
             </div>
             <br></br>
             <div className="mb-12">
