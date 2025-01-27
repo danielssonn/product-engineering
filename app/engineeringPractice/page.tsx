@@ -74,8 +74,61 @@ const EngineerignPractice = () => {
             <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-4">Product Engineering Vision</h2>
                 <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
-                    <p>Unify product knowledge with engineering best practice in a scalable framework, to accelerate business agility and innovation</p></blockquote>
+                    <p>Connect product knowledge with engineering best practice in a scalable framework, to accelerate business agility and innovation</p></blockquote>
                 <br></br>
+                <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+                    <rect x="50" y="50" width="200" height="200"
+                        fill="darkblue" stroke="darkblue" strokeWidth="2" />
+                    <text fill="white" x="150" y="150" text-anchor="middle" dominant-baseline="middle">
+                        Product
+                    </text>
+
+
+                    <rect x="350" y="50" width="200" height="200"
+                        fill="darkblue" stroke="darkblue" strokeWidth="2" />
+                    <text fill="white" x="450" y="150" text-anchor="middle" dominant-baseline="middle">
+                        Technology
+                    </text>
+
+
+                    <rect x="200" y="150" width="200" height="200"
+                        fill="white" stroke="green" strokeWidth="10" />
+                    <text x="300" y="250" text-anchor="middle" dominant-baseline="middle">
+                        Product Engineering
+                    </text>
+                    <line x1="250" y1="150" x2="350" y2="150"
+                        stroke="red" stroke-width="2" strokeDasharray="15" />
+                    <text fill="red" x="300" y="140" text-anchor="middle" dominant-baseline="auto">
+                        Chasm
+                    </text>
+
+                    <rect x="220" y="190" width="70" height="30"
+                        fill="green" stroke="green" stroke-width="1" />
+                    <text fill="white" x="255" y="205" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                        Product Catalog
+                    </text>
+
+                    <rect x="310" y="190" width="70" height="30"
+                        fill="green" stroke="green" stroke-width="1" />
+                    <text fill="white" x="345" y="205" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                        Product Rules
+                    </text>
+
+                    <rect x="220" y="290" width="70" height="30"
+                        fill="green" stroke="green" stroke-width="1" />
+                    <text fill="white" x="255" y="305" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                        Product Experience
+                    </text>
+
+                    <rect x="310" y="290" width="70" height="30"
+                        fill="green" stroke="green" stroke-width="1" />
+                    <text fill="white" x="345" y="305" text-anchor="middle" dominant-baseline="middle" fontSize="8">
+                        Product Events
+                    </text>
+
+                </svg>
+
 
                 <div className="grid grid-cols-2 gap-6">
                     <div className="p-4 border rounded">
@@ -123,6 +176,22 @@ const EngineerignPractice = () => {
                             <li>Reduced product technical debt</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-4">In Action</h2>
+                <div className="grid grid-cols-1 gap-6">
+                    <div className="p-4 border rounded">
+                        <h3 className="text-xl font-bold mb-2">Payments</h3>
+                        <ul className="list-disc pl-4">
+                            <li>Payment Product Family encapsulates any Payment type (FedWire, ACH, RTP, FX ...)</li>
+                            <li>Each Payment type has own Configuration, normalized in Product Catalog</li>
+                            <li>Each Payment type can be rendered via pre-defined UI snippet (check boxes, radio buttons, dropdowns), normalized in Product Catalog</li>
+                            <li>Adding new Payment type will be done by augmenting the Product Model, UI will auto-generate</li>
+                            <li>Default Payment rules, such as number of approavers will be automatically provisioned</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             <div>
