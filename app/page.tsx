@@ -10,7 +10,7 @@ export default function Home() {
 
       <nav className="space-x-8">
         <Link href="/engineeringPractice" className="text-blue-500 hover:text-blue-700">
-          Engineering Practice
+          The Practice
         </Link>
 
         <Link href="/engineeringHandbook" className="text-blue-500 hover:text-blue-700">
